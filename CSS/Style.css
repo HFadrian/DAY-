@@ -1,0 +1,109 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{ext-decoration: underline;
+}
+
+a.primary{
+    color: #0269CD;
+}
+
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+/* header */
+header{
+    font-size: 12px;
+}
+
+
+.top-link{
+    background-color: #f0f1f2;
+}
+.top-link-content{
+    padding: 12px 0;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.line{
+    width: 1px;
+    height: 12px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.botom-link{
+    background-color: #fbfbfc;
+}
+.bottom-link-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+
+.Support-Search{
+    display: flex;
+    gap: 12px;
+}
+
+/* main */
+.donation{
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 0;
+
+}
+.mac-and-iphone{
+    background-color: #F1EFF3;
+    padding-top: 40px;
+    padding-bottom:24PX;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mac-and-iphone video{
+    width: 600px;
+}
+
+.mac-and-iphone H1{
+    padding-bottom: 8px;
+}
+.mac-and-iphone Span{
+    padding-bottom: 12px;
+}
+secondary-card{
+    background: #fafafa;
+}
+
+.secondary-card .action{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* footer */
+footer{
+    background-color: #F5F5F7;
+
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
